@@ -1,0 +1,66 @@
+episode 1
+
+- The murderer is Miss Scarlet
+CORRECT
+
+episode 2
+
+ - murderer is const so immutable, changeMurderer() has no effect
+ - the muderer is Professor Plum
+CORRECT
+
+
+episode 3
+
+- murderer is not constant
+- first verdict uses declareMurderer which returns 'The murderer is Mrs. peacock
+- First Verdict: Mrs peacock
+- Second verdict takes murderer form file scope which is defined as professor Plum
+- Second verdict: Professor Plum
+CORRECT
+
+
+epoisode 4
+
+- suspect three is only col mustard in the scopr of the function
+- suspects will be 'The suspects are Miss Scarlet, Professor Plum, Colnel mustard
+- BUT suspectThree will still be Mrs Peacock in final console log
+CORRECT
+
+
+episode 5
+
+- thoug scenario is a const variable it's contents can still be changed
+- changeWeapon() changes scenario.weapon to be 'revolver;
+- verdict = 'the weapon is the revlover'
+CORRECT
+
+
+episode 6
+
+- plotTwist runs every time changeMurderer() is called meaning murderer will always be changed to Mrs White, murderer is a let so can ce changed,
+- verdict = The murderer is Mrs White.
+CORRECT
+
+
+episode 7
+- plotTwist() here will drop the variable murderer after it is called as it is definied as a let in the first line of the function.
+- so changeMurderer() will only change the the murderer to Mr Green.
+- verdict = The murderer is Mr Green
+CORRECT
+
+episode 8
+- at plot Twist()
+ = {murderer: Mrs. peacock, room: 'Dining Room, weapon: 'lead pipe}
+- after plotTwist()
+ = {murderer: col Must, room: 'Dining Room, weapon Lead Pipe}
+- after unexpectedOutcome() -> changeScenario()
+ = {murderer: col Must, room: Dining Room, weapon, 'candle stick'}
+
+verdict = The weapon is candle stick
+CORRECT
+
+episode 9
+- if statement doesn't change murderer as it simply defines it as new variable
+- verdict = The murderer is Professor Plum
+CORRECT
